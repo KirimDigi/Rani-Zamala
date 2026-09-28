@@ -1,0 +1,596 @@
+Uri: https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js
+File Name: C:\Downloaded Web Sites\ulemanti.id\ajax\libs\xlsx\0.17.0\xlsx.full.min.js
+Content Type: application/javascript
+
+Uri: https://sstatic1.histats.com/0.gif?4762469&101
+File Name: C:\Downloaded Web Sites\ulemanti.id\0.gif
+Content Type: image/gif
+
+Uri: https://ulemanti.id/comments/feed/
+File Name: C:\Downloaded Web Sites\ulemanti.id\comments\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://ulemanti.id/feed/
+File Name: C:\Downloaded Web Sites\ulemanti.id\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://ulemanti.id/softopeningcelestialbridal/
+File Name: C:\Downloaded Web Sites\ulemanti.id\softopeningcelestialbridal\index.htm
+Content Type: text/html
+
+Uri: https://ulemanti.id/softopeningcelestialbridal/?post_id=296719&comments=6&get=1000&order=DESC
+File Name: C:\Downloaded Web Sites\ulemanti.id\softopeningcelestialbridal\index-1.htm
+Content Type: text/html
+
+Uri: https://ulemanti.id/softopeningcelestialbridal/feed/
+File Name: C:\Downloaded Web Sites\ulemanti.id\softopeningcelestialbridal\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://ulemanti.id/wp-content/plugins/bukutamupro-elementor/assets/css/bp-frontend.css?ver=1.0.4
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\bukutamupro-elementor\assets\css\bp-frontend.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/bukutamupro-elementor/assets/js/bp-frontend.js?ver=1.0.4
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\bukutamupro-elementor\assets\js\bp-frontend.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=4.1.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor-pro\assets\css\conditionals\popup.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor-pro/assets/css/conditionals/transitions.min.css?ver=4.1.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor-pro\assets\css\conditionals\transitions.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor-pro/assets/css/widget-countdown.min.css?ver=4.1.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor-pro\assets\css\widget-countdown.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css?ver=4.1.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor-pro\assets\css\widget-form.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor-pro/assets/css/widget-gallery.min.css?ver=4.1.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor-pro\assets\css\widget-gallery.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.1.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor-pro\assets\js\elements-handlers.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.1.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor-pro\assets\js\frontend.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.1.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor-pro\assets\js\webpack-pro.runtime.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\css\conditionals\e-swiper.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\css\frontend.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\css\widget-divider.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\css\widget-heading.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\css\widget-icon-list.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\css\widget-image.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/images/placeholder.png
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\images\placeholder.png
+Content Type: image/png
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\js\frontend-modules.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\js\frontend.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\js\webpack.runtime.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\animations\styles\fadeIn.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\animations\styles\fadeInLeft.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\animations\styles\fadeInUp.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\e-gallery\css\e-gallery.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\e-gallery\js\e-gallery.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.49.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\eicons\css\elementor-icons.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\font-awesome\css\all.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\font-awesome\css\brands.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\font-awesome\css\fontawesome.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\font-awesome\css\solid.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\font-awesome\css\v4-shims.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=4.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\font-awesome\js\v4-shims.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\swiper\v8\css\swiper.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\elementor\assets\lib\swiper\v8\swiper.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/powerpack-elements/assets/css/min/extensions.min.css?ver=2.13.3
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\powerpack-elements\assets\css\min\extensions.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/addons/comment-kit2/css/cui_style.css?ver=1.0.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\addons\comment-kit2\css\cui_style.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/addons/comment-kit2/js/cui_script.js?ver=1.0.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\addons\comment-kit2\js\cui_script.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/addons/comment-kit2/js/libs/autosize.min.js?ver=1.14
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\addons\comment-kit2\js\libs\autosize.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/addons/comment-kit2/js/libs/jquery.jPages.min.js?ver=0.7
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\addons\comment-kit2\js\libs\jquery.jPages.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/addons/comment-kit2/js/libs/jquery.placeholder.min.js?ver=2.0.7
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\addons\comment-kit2\js\libs\jquery.placeholder.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/addons/comment-kit2/js/libs/jquery.textareaCounter.js?ver=2.0
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\addons\comment-kit2\js\libs\jquery.textareaCounter.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/css/exad-styles.min.css?ver=7.1.2
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\css\exad-styles.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/css/guest-book.css?ver=3.2.1.4
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\css\guest-book.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/css/modules/bdt-uikit.css?ver=3.15.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\css\modules\bdt-uikit.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/css/modules/ep-helper.css?ver=3.2.1.4
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\css\modules\ep-helper.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/css/new-icon.min.css?ver=3.2.1.4
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\css\new-icon.min.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/css/wdp.css?ver=3.2.1.4
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\css\wdp.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/js/exad-scripts.min.js?ver=3.2.1.4
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\js\exad-scripts.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/js/guest-form.js?ver=3.2.1.4
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\js\guest-form.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/js/license.min.js?ver=3.2.1.4
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\js\license.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/js/modules/bdt-uikit.js?ver=3.15.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\js\modules\bdt-uikit.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/js/qr-code.js
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\js\qr-code.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/js/wdp-swiper.min.js
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\js\wdp-swiper.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/plugins/weddingpress/assets/js/wdp.min.js?ver=3.2.1.4
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\plugins\weddingpress\assets\js\wdp.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/themes/landingpress-wp/assets/js/script.min.js?ver=3.4.7.2
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\themes\landingpress-wp\assets\js\script.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-content/themes/landingpress-wp/style.css?ver=3.4.7.2
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\themes\landingpress-wp\style.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/uploads/2022/07/thmbnl-4.png
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2022\07\thmbnl-4.png
+Content Type: image/png
+
+Uri: https://ulemanti.id/wp-content/uploads/2022/10/wedding-invitation-with-ornaments.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2022\10\wedding-invitation-with-ornaments.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-24-at-11.04.35-AM-1.jpeg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2022\11\WhatsApp-Image-2022-11-24-at-11.04.35-AM-1.jpeg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2022/12/Background-galery-foto-yang-ada-videonya.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2022\12\Background-galery-foto-yang-ada-videonya.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2023/01/galeri-6.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2023\01\galeri-6.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2023/02/Tak-berjudul29_20230214062241.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2023\02\Tak-berjudul29_20230214062241.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2023/07/1-foto-sampul-depan.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2023\07\1-foto-sampul-depan.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2024/08/Patricia-Signature-Italic.ttf
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2024\08\Patricia-Signature-Italic.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://ulemanti.id/wp-content/uploads/2024/08/Patricia-Signature-Italic.woff
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2024\08\Patricia-Signature-Italic.woff
+Content Type: application/font-woff
+
+Uri: https://ulemanti.id/wp-content/uploads/2024/08/Patricia-Signature-Italic.woff2
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2024\08\Patricia-Signature-Italic.woff2
+Content Type: font/woff2
+
+Uri: https://ulemanti.id/wp-content/uploads/2024/08/Patricia-Signature.ttf
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2024\08\Patricia-Signature.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://ulemanti.id/wp-content/uploads/2024/08/Patricia-Signature.woff
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2024\08\Patricia-Signature.woff
+Content Type: application/font-woff
+
+Uri: https://ulemanti.id/wp-content/uploads/2024/08/Patricia-Signature.woff2
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2024\08\Patricia-Signature.woff2
+Content Type: font/woff2
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/05/L2490190_1.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\05\L2490190_1.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/05/thumbbbb-6.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\05\thumbbbb-6.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/06/CFS_3174.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\06\CFS_3174.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/1-2.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/10-3.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\10-3.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/12-3.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\12-3.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/13-2.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\13-2.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/15-3.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\15-3.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/16-3.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\16-3.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/17-3.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\17-3.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/18-3.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\18-3.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/19-1.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\19-1.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/1X5A8134.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\1X5A8134.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/2-1.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\2-1.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/2.png
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\2.png
+Content Type: image/png
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/20-1.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\20-1.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/5-2.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\5-2.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/6-2.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\6-2.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/7-3.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\7-3.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/7613.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\7613.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/8161.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\8161.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/8197.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\8197.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/love-story-but-youre-in-a-ballroom-sped-up-mp3cut.net_.mp3
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\love-story-but-youre-in-a-ballroom-sped-up-mp3cut.net_.mp3
+Content Type: audio/mpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-09-at-19.32.58_5bf71466.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\WhatsApp-Image-2025-10-09-at-19.32.58_5bf71466.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2025/10/WhatsAppImage2025-10-10at04.34.16_a032d793.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2025\10\WhatsAppImage2025-10-10at04.34.16_a032d793.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2026/01/HID_9095-1.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2026\01\HID_9095-1.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2026/01/QR.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2026\01\QR.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/2026/06/COVER-6.webp
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2026\06\COVER-6.webp
+Content Type: image/webp
+
+Uri: https://ulemanti.id/wp-content/uploads/2026/07/cropped-Ulemanti-Kotak-Logo-180x180.png
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2026\07\cropped-Ulemanti-Kotak-Logo-180x180.png
+Content Type: image/png
+
+Uri: https://ulemanti.id/wp-content/uploads/2026/07/cropped-Ulemanti-Kotak-Logo-192x192.png
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2026\07\cropped-Ulemanti-Kotak-Logo-192x192.png
+Content Type: image/png
+
+Uri: https://ulemanti.id/wp-content/uploads/2026/07/cropped-Ulemanti-Kotak-Logo-32x32.png
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2026\07\cropped-Ulemanti-Kotak-Logo-32x32.png
+Content Type: image/png
+
+Uri: https://ulemanti.id/wp-content/uploads/2026/08/Bagian-1-280kb.jpg
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\2026\08\Bagian-1-280kb.jpg
+Content Type: image/jpeg
+
+Uri: https://ulemanti.id/wp-content/uploads/elementor/google-fonts/css/anticdidone.css?ver=1775801215
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\elementor\google-fonts\css\anticdidone.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/uploads/elementor/google-fonts/css/calistoga.css?ver=1775801195
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\elementor\google-fonts\css\calistoga.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/uploads/elementor/google-fonts/css/cormorantinfant.css?ver=1775801377
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\elementor\google-fonts\css\cormorantinfant.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/uploads/elementor/google-fonts/css/cormorantupright.css?ver=1775801169
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\elementor\google-fonts\css\cormorantupright.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/uploads/elementor/google-fonts/css/lora.css?ver=1775801195
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\elementor\google-fonts\css\lora.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/uploads/elementor/google-fonts/css/nunito.css?ver=1775801199
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\elementor\google-fonts\css\nunito.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1775801153
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\elementor\google-fonts\css\roboto.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/uploads/elementor/google-fonts/css/worksans.css?ver=1775801135
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\elementor\google-fonts\css\worksans.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-content/uploads/font-awesome/v5.15.4/css/svg-with-js.css
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-content\uploads\font-awesome\v5.15.4\css\svg-with-js.css
+Content Type: text/css
+
+Uri: https://ulemanti.id/wp-includes/js/comment-reply.min.js?ver=7.1.2
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-includes\js\comment-reply.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-includes/js/dist/element.min.js?ver=4a4370b2b349066fd440
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-includes\js\dist\element.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-includes/js/dist/escape-html.min.js?ver=87ebe53e97bba59805a5
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-includes\js\dist\escape-html.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-includes\js\dist\hooks.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-includes\js\dist\i18n.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-includes\js\dist\vendor\react-dom.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-includes\js\dist\vendor\react.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-includes\js\jquery\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://ulemanti.id/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2
+File Name: C:\Downloaded Web Sites\ulemanti.id\wp-includes\js\jquery\ui\core.min.js
+Content Type: text/javascript
+
+Uri: https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js
+File Name: C:\Downloaded Web Sites\ulemanti.id\qr-code-styling@1.5.0\lib\qr-code-styling.js
+Content Type: text/javascript
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/css/all.css
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\css\all.css
+Content Type: text/css
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\css\v4-shims.css
+Content Type: text/css
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.eot
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-brands-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.eot?
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-brands-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.svg
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.ttf
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-brands-400.woff
+Content Type: font/woff
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.woff2
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.eot
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-regular-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.eot?
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-regular-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.svg
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.woff
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-regular-400.woff
+Content Type: font/woff
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.woff2
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.eot
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-solid-900.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.eot?
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-solid-900-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.svg
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-solid-900.woff
+Content Type: font/woff
+
+Uri: https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.woff2
+File Name: C:\Downloaded Web Sites\ulemanti.id\releases\v5.15.4\webfonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://www.youtube.com/iframe_api
+File Name: C:\Downloaded Web Sites\ulemanti.id\iframe_api
+Content Type: text/javascript
+
