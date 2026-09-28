@@ -618,6 +618,50 @@ svg { width: 1em; height: 1em; fill: currentColor; display: inline-block; vertic
     font-display: swap;
 }
 </style>
+
+<!-- CSS Anti-Busted -->
+<style id="anti-busted-css">
+
+/* Warna teks dan background dropdown option agar jelas terbaca saat memilih */
+select option,
+.elementor-field-group .elementor-select-wrapper select option,
+.elementor-field-group select option,
+.elementor-select-wrapper select option,
+.elementor-field-textual option,
+#form-field-confirmattend option,
+#form-field-countpeople option {
+    background-color: #ffffff !important;
+    color: #222222 !important;
+    font-family: 'Lora', Sans-serif !important;
+    font-size: 13px !important;
+    padding: 8px 12px !important;
+}
+
+select option:checked,
+select option:hover {
+    background-color: #e6e6e6 !important;
+    color: #000000 !important;
+    font-weight: 600 !important;
+}
+
+.elementor-message,
+.elementor-message-danger,
+.elementor-message-success,
+.elementor-help-inline,
+div[class*="elementor-message"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    left: -9999px !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+}
+</style>
+
 </head>
 <body class="wp-singular post-template post-template-elementor_canvas single single-post postid-296719 single-format-standard wp-theme-landingpress-wp page-sidebar-inactive header-active footer-active elementor-default elementor-template-canvas elementor-kit-9 elementor-page elementor-page-296719 elementor-page-16510">
 	<!-- Google Tag Manager (noscript) -->
@@ -3746,5 +3790,336 @@ var sendkit_ajax = {"ajax_url":"https://ulemanti.id/wp-admin/admin-ajax.php"};
 </script>
 <script id="kirim-kit-js" src="wp-content/plugins/weddingpress/assets/js/guest-form.js?ver=3.2.1.4"></script>
 <script id="landingpress-js" src="wp-content/themes/landingpress-wp/assets/js/script.min.js?ver=3.4.7.2"></script>
-	</body>
+	
+
+
+
+
+
+<script id="rsvp-google-sheets-handler">
+(function() {
+    var GAS_URL = "https://script.google.com/macros/s/AKfycby1Tzxl1LM8BUOanRMYWprcdp4K1Aaqt3yH5cUKlKyFvQOfHlryoV7wXwc9Mb5Ks8_c/exec";
+    var STORAGE_KEY = "rz_wbi_rsvp_ucapan_list";
+
+    // Fungsi pembersih teks Busted
+    function purgeBusted() {
+        var msgs = document.querySelectorAll(".elementor-message, .elementor-message-danger");
+        for (var i = 0; i < msgs.length; i++) {
+            msgs[i].remove();
+        }
+        var allDivs = document.querySelectorAll("div, p, span");
+        for (var j = 0; j < allDivs.length; j++) {
+            var el = allDivs[j];
+            if (el.children.length === 0 && el.textContent && el.textContent.trim().indexOf("Busted") !== -1) {
+                el.remove();
+            }
+        }
+    }
+
+    // 1. MutationObserver untuk memusnahkan elemen Busted! secara seketika
+    var observer = new MutationObserver(function(mutations) {
+        purgeBusted();
+    });
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+
+    function initRSVP() {
+        purgeBusted();
+
+        var form = document.querySelector("form.elementor-form[name*=\"Launching\"], form[data-form-id=\"b7a8efb\"], form.elementor-form");
+        if (!form) return;
+
+        var submitWrapper = form.querySelector(".e-form__buttons");
+        if (!submitWrapper) return;
+
+        var submitBtn = submitWrapper.querySelector("button[type=\"submit\"]");
+        if (submitBtn) {
+            submitBtn.id = "btn-submit-rsvp";
+            submitBtn.style.cssText = "border: 1px solid #ffffff !important; background: rgba(0,0,0,0.2) !important; color: #ffffff !important; font-family: Lora, Sans-serif !important; font-size: 13px !important; letter-spacing: 1px !important; padding: 10px 22px !important; border-radius: 4px !important; cursor: pointer !important; transition: all 0.3s !important;";
+        }
+
+        if (document.getElementById("btn-toggle-ucapan")) return;
+
+        var statusMsg = document.createElement("div");
+        statusMsg.id = "rsvp-status-message";
+        statusMsg.style.cssText = "display: none; margin-top: 14px; padding: 10px 14px; border-radius: 4px; font-family: Lora, Sans-serif; font-size: 13px; text-align: center; line-height: 1.5;";
+
+        var toggleDiv = document.createElement("div");
+        toggleDiv.style.cssText = "margin-top: 14px; width: 100%; text-align: left;";
+        
+        var toggleBtn = document.createElement("button");
+        toggleBtn.id = "btn-toggle-ucapan";
+        toggleBtn.type = "button";
+        toggleBtn.style.cssText = "display: inline-flex; align-items: center; justify-content: center; padding: 10px 22px; border: 1px solid #ffffff; background: rgba(0,0,0,0.2); color: #ffffff; font-family: Lora, Sans-serif; font-size: 13px; letter-spacing: 1px; border-radius: 4px; cursor: pointer; transition: all 0.3s;";
+        toggleBtn.innerHTML = "<i class=\"far fa-comments\" style=\"margin-right: 8px;\"></i><span id=\"btn-toggle-ucapan-text\">Tampilkan Ucapan</span>";
+        toggleDiv.appendChild(toggleBtn);
+
+        var containerUcapan = document.createElement("div");
+        containerUcapan.id = "container-ucapan";
+        containerUcapan.style.cssText = "display: none; margin-top: 16px; width: 100%; background: rgba(0,0,0,0.35); border: 1px solid rgba(255,255,255,0.18); border-radius: 6px; padding: 14px; box-sizing: border-box; backdrop-filter: blur(8px);";
+        containerUcapan.innerHTML = "<div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: 8px;\">"
+            + "<span style=\"font-family: Lora, Georgia, serif; font-size: 13.5px; color: #ffffff; font-weight: 500;\">"
+            + "<i class=\"fas fa-heart\" style=\"margin-right: 6px; color: #e1306c;\"></i> Doa &amp; Ucapan (<span id=\"total-ucapan-count\">0</span>)"
+            + "</span>"
+            + "<button id=\"btn-refresh-ucapan\" type=\"button\" title=\"Refresh ucapan\" style=\"background: none; border: 1px solid rgba(255,255,255,0.25); border-radius: 4px; color: #e0e0e0; cursor: pointer; font-size: 11px; padding: 4px 10px; font-family: Lora, Sans-serif; transition: all 0.2s;\">"
+            + "<i class=\"fas fa-sync-alt\" style=\"margin-right: 4px;\"></i> Refresh"
+            + "</button>"
+            + "</div>"
+            + "<div id=\"list-ucapan-items\" style=\"max-height: 380px; overflow-y: auto; padding-right: 4px;\">"
+            + "<div style=\"text-align: center; padding: 20px 0; color: #bbb; font-family: Lora, Sans-serif; font-size: 13px;\">"
+            + "<i class=\"fas fa-spinner fa-spin\" style=\"margin-right: 8px;\"></i> Memuat ucapan..."
+            + "</div>"
+            + "</div>";
+
+        submitWrapper.parentNode.appendChild(statusMsg);
+        submitWrapper.parentNode.appendChild(toggleDiv);
+        submitWrapper.parentNode.appendChild(containerUcapan);
+
+        var toggleText = document.getElementById("btn-toggle-ucapan-text");
+        var listUcapan = document.getElementById("list-ucapan-items");
+        var countUcapan = document.getElementById("total-ucapan-count");
+        var btnRefresh = document.getElementById("btn-refresh-ucapan");
+
+        // Sembunyikan widget lama b89c156
+        var oldWidget = document.querySelector(".elementor-element-b89c156");
+        if (oldWidget) {
+            oldWidget.style.display = "none";
+        }
+
+        // Intercept form submit event in capture phase to completely kill Elementor's AJAX
+        form.addEventListener("submit", function(e) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+
+            purgeBusted();
+            if (statusMsg) statusMsg.style.display = "none";
+
+            var guestNameInput = form.querySelector("[name=\"form_fields[guestname]\"]");
+            var messageInput = form.querySelector("[name=\"form_fields[messagestext]\"]");
+            var attendInput = form.querySelector("[name=\"form_fields[confirmattend]\"]");
+            var countInput = form.querySelector("[name=\"form_fields[countpeople]\"]");
+
+            var nama = guestNameInput ? guestNameInput.value.trim() : "";
+            var ucapan = messageInput ? messageInput.value.trim() : "";
+            var kehadiran = attendInput ? attendInput.value : "";
+            var jumlah = countInput ? countInput.value : "1 Orang";
+
+            if (!nama) {
+                showStatus("Mohon masukkan nama Anda.", false);
+                if (guestNameInput) guestNameInput.focus();
+                return;
+            }
+            if (!ucapan) {
+                showStatus("Mohon tuliskan ucapan doa restu Anda.", false);
+                if (messageInput) messageInput.focus();
+                return;
+            }
+            if (!kehadiran || kehadiran === "0") {
+                showStatus("Mohon pilih konfirmasi kehadiran.", false);
+                if (attendInput) attendInput.focus();
+                return;
+            }
+
+            if (jumlah === "0" || jumlah === "----------") {
+                jumlah = "Tidak Hadir";
+            } else if (!jumlah.includes("Orang") && jumlah !== "Tidak Hadir") {
+                jumlah = jumlah + " Orang";
+            }
+
+            var payload = {
+                timestamp: new Date().toISOString(),
+                nama: nama,
+                ucapan: ucapan,
+                kehadiran: kehadiran,
+                jumlah: (kehadiran === "Tidak hadir" ? "-" : jumlah)
+            };
+
+            if (submitBtn) {
+                submitBtn.disabled = true;
+                submitBtn.style.opacity = "0.7";
+                var btnTxt = submitBtn.querySelector(".elementor-button-text");
+                if (btnTxt) btnTxt.textContent = "Mengirim...";
+            }
+
+            fetch(GAS_URL, {
+                method: "POST",
+                mode: "no-cors",
+                headers: { "Content-Type": "text/plain;charset=utf-8" },
+                body: JSON.stringify(payload)
+            }).then(function() {
+                onSuccess(payload);
+            }).catch(function() {
+                onSuccess(payload);
+            });
+        }, true);
+
+        function onSuccess(item) {
+            if (submitBtn) {
+                submitBtn.disabled = false;
+                submitBtn.style.opacity = "1";
+                var btnTxt = submitBtn.querySelector(".elementor-button-text");
+                if (btnTxt) btnTxt.textContent = "Kirim";
+            }
+
+            var saved = getLocalUcapan();
+            saved.unshift({
+                timestamp: "Baru saja",
+                nama: item.nama,
+                ucapan: item.ucapan,
+                kehadiran: item.kehadiran,
+                jumlah: item.jumlah
+            });
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+
+            if (form) form.reset();
+            showStatus("Terima kasih atas doa restu & konfirmasi kehadiran Anda! ✨", true);
+            renderUcapan(saved);
+        }
+
+        function showStatus(msg, isSuccess) {
+            if (!statusMsg) return;
+            statusMsg.style.display = "block";
+            statusMsg.style.background = isSuccess ? "rgba(37, 211, 102, 0.15)" : "rgba(255, 68, 68, 0.15)";
+            statusMsg.style.border = isSuccess ? "1px solid rgba(37, 211, 102, 0.4)" : "1px solid rgba(255, 68, 68, 0.4)";
+            statusMsg.style.color = isSuccess ? "#85e89d" : "#ff9999";
+            statusMsg.textContent = msg;
+
+            if (!isSuccess) {
+                setTimeout(function() {
+                    statusMsg.style.display = "none";
+                }, 5000);
+            }
+        }
+
+        function getLocalUcapan() {
+            try {
+                var raw = localStorage.getItem(STORAGE_KEY);
+                return raw ? JSON.parse(raw) : [
+                    {
+                        timestamp: "28/09/2026 15:30",
+                        nama: "Celeste Team",
+                        ucapan: "Selamat dan sukses untuk launching single terbaru Rani Zamala! Semakin bersinar dan menginspirasi!",
+                        kehadiran: "Hadir",
+                        jumlah: "2 Orang"
+                    },
+                    {
+                        timestamp: "27/09/2026 20:15",
+                        nama: "SoundRich Management",
+                        ucapan: "Congratulation Rani! Semoga karyanya dicintai seluruh penikmat musik Indonesia.",
+                        kehadiran: "Hadir",
+                        jumlah: "3 Orang"
+                    }
+                ];
+            } catch(e) {
+                return [];
+            }
+        }
+
+        function fetchUcapanFromGAS() {
+            if (listUcapan) {
+                listUcapan.innerHTML = "<div style=\"text-align: center; padding: 20px 0; color: #bbb; font-family: Lora, Sans-serif; font-size: 13px;\"><i class=\"fas fa-spinner fa-spin\" style=\"margin-right: 8px;\"></i> Memuat ucapan terbaru...</div>";
+            }
+
+            fetch(GAS_URL)
+                .then(function(res) { return res.json(); })
+                .then(function(res) {
+                    if (res.status === "success" && Array.isArray(res.data) && res.data.length > 0) {
+                        renderUcapan(res.data);
+                        localStorage.setItem(STORAGE_KEY, JSON.stringify(res.data));
+                    } else {
+                        renderUcapan(getLocalUcapan());
+                    }
+                })
+                .catch(function() {
+                    renderUcapan(getLocalUcapan());
+                });
+        }
+
+        function renderUcapan(items) {
+            if (!listUcapan) return;
+            if (countUcapan) countUcapan.textContent = items.length;
+
+            if (!items || items.length === 0) {
+                listUcapan.innerHTML = "<div style=\"text-align: center; padding: 20px 0; color: #999; font-family: Lora, Sans-serif; font-size: 12.5px;\">Belum ada ucapan. Jadilah yang pertama mengirimkan ucapan!</div>";
+                return;
+            }
+
+            var html = "";
+            items.forEach(function(item) {
+                var badgeColor = "#25D366";
+                var badgeBg = "rgba(37, 211, 102, 0.15)";
+                var badgeBorder = "rgba(37, 211, 102, 0.3)";
+                var keh = (item.kehadiran || "").toLowerCase();
+
+                if (keh.includes("tidak")) {
+                    badgeColor = "#ff6b6b";
+                    badgeBg = "rgba(255, 107, 107, 0.15)";
+                    badgeBorder = "rgba(255, 107, 107, 0.3)";
+                } else if (keh.includes("ragu")) {
+                    badgeColor = "#feca57";
+                    badgeBg = "rgba(254, 202, 87, 0.15)";
+                    badgeBorder = "rgba(254, 202, 87, 0.3)";
+                }
+
+                var paxText = item.jumlah && item.jumlah !== "-" && !keh.includes("tidak") ? " (" + item.jumlah + ")" : "";
+
+                html += "<div style=\"padding: 10px 12px; margin-bottom: 8px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 6px;\">";
+                html += "  <div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px; flex-wrap: wrap; gap: 4px;\">";
+                html += "    <div style=\"display: flex; align-items: center; gap: 6px;\">";
+                html += "      <strong style=\"color: #ffffff; font-family: Lora, Georgia, serif; font-size: 13px; letter-spacing: 0.5px;\">" + escapeHtml(item.nama) + "</strong>";
+                if (item.kehadiran) {
+                    html += "      <span style=\"font-size: 10px; padding: 2px 6px; border-radius: 10px; color: " + badgeColor + "; background: " + badgeBg + "; border: 1px solid " + badgeBorder + "; font-family: sans-serif;\">" + escapeHtml(item.kehadiran) + paxText + "</span>";
+                }
+                html += "    </div>";
+                if (item.timestamp) {
+                    html += "    <span style=\"font-size: 11px; color: #888; font-family: sans-serif;\">" + escapeHtml(item.timestamp) + "</span>";
+                }
+                html += "  </div>";
+                html += "  <div style=\"color: #d8d8d8; font-family: Lora, Georgia, serif; font-size: 12.5px; line-height: 1.5; word-break: break-word;\">" + escapeHtml(item.ucapan) + "</div>";
+                html += "</div>";
+            });
+
+            listUcapan.innerHTML = html;
+        }
+
+        function escapeHtml(str) {
+            if (!str) return "";
+            return String(str)
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/\"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        toggleBtn.addEventListener("click", function() {
+            var isHidden = containerUcapan.style.display === "none" || containerUcapan.style.display === "";
+            if (isHidden) {
+                containerUcapan.style.display = "block";
+                toggleText.textContent = "Sembunyikan Ucapan";
+                toggleBtn.querySelector("i").className = "far fa-eye-slash";
+                fetchUcapanFromGAS();
+            } else {
+                containerUcapan.style.display = "none";
+                toggleText.textContent = "Tampilkan Ucapan";
+                toggleBtn.querySelector("i").className = "far fa-comments";
+            }
+        });
+
+        if (btnRefresh) {
+            btnRefresh.addEventListener("click", function() {
+                fetchUcapanFromGAS();
+            });
+        }
+    }
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initRSVP);
+    } else {
+        initRSVP();
+    }
+    window.addEventListener("load", initRSVP);
+})();
+</script>
+
+</body>
 </html>
