@@ -754,6 +754,97 @@ div[class*="elementor-message"] {
                                                                         <div class="wdp-dear" style="width: auto !important;">Dear,</div>
                                     
                                     <div class="wdp-name namatamu" style="width: auto !important;">Tamu Undangan</div>
+<script id="immediate-guest-name-resolver">
+(function() {
+    function cleanName(raw) {
+        if (!raw) return '';
+        try {
+            raw = decodeURIComponent(raw.replace(/\+/g, ' '));
+        } catch(e) {
+            try { raw = unescape(raw.replace(/\+/g, ' ')); } catch(e2) {}
+        }
+        return raw.replace(/&amp;/gi, '&').replace(/&#38;/gi, '&').replace(/&#x26;/gi, '&').trim();
+    }
+
+    function getGuestName() {
+        var href = window.location.href || '';
+        var keys = ['to', 'dear', 'kepada', 'u', 'n', 'nama'];
+        var sources = [];
+        
+        var hashIdx = href.indexOf('#');
+        if (hashIdx !== -1) {
+            sources.push(href.substring(hashIdx + 1));
+        }
+        var qIdx = href.indexOf('?');
+        if (qIdx !== -1) {
+            var end = (hashIdx !== -1 && hashIdx > qIdx) ? hashIdx : href.length;
+            sources.push(href.substring(qIdx + 1, end));
+        }
+
+        for (var i = 0; i < sources.length; i++) {
+            var str = sources[i];
+            if (!str) continue;
+            str = str.replace(/^[#\/?!]+/, '');
+
+            for (var k = 0; k < keys.length; k++) {
+                var key = keys[k];
+                var pattern = '(?:^|[&;?])' + key + '=([^#]+)';
+                var match = str.match(new RegExp(pattern, 'i'));
+                if (match && match[1]) {
+                    var candidate = match[1];
+                    var boundaryIdx = candidate.search(/[&;](?:to|dear|kepada|u|n|nama|utm_[a-z]+)=/i);
+                    if (boundaryIdx !== -1) {
+                        candidate = candidate.substring(0, boundaryIdx);
+                    }
+                    var res = cleanName(candidate);
+                    if (res) return res;
+                }
+            }
+        }
+        return '';
+    }
+
+    function applyName() {
+        var name = getGuestName();
+        if (!name) return;
+
+        // Cover & all .namatamu elements
+        var targets = document.querySelectorAll('.namatamu, .wdp-name, .bp-dynamic-guest-name');
+        for (var i = 0; i < targets.length; i++) {
+            targets[i].textContent = name;
+        }
+
+        // Headings or blocks containing 'Tamu Undangan'
+        var allElems = document.querySelectorAll('h1, h2, h3, h4, h5, h6, div, p, span');
+        for (var j = 0; j < allElems.length; j++) {
+            var el = allElems[j];
+            if (el.children.length === 0 && el.textContent && el.textContent.trim() === 'Tamu Undangan') {
+                el.textContent = name;
+            }
+        }
+
+        // Pre-fill RSVP form name if empty
+        var guestInput = document.getElementById('form-field-guestname') || document.querySelector('input[name="form_fields[guestname]"]');
+        if (guestInput && !guestInput.value) {
+            guestInput.value = name;
+        }
+        var authorInput = document.getElementById('author') || document.querySelector('input[name="author"]');
+        if (authorInput && !authorInput.value) {
+            authorInput.value = name;
+        }
+    }
+
+    // Apply immediately to prevent flicker
+    applyName();
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', applyName);
+    }
+    window.addEventListener('load', applyName);
+    window.addEventListener('hashchange', applyName);
+    window.addEventListener('popstate', applyName);
+})();
+</script>
 
                                     
                                                                         <div class="wdp-button-wrapper" id="wdp-button-wrapper">
@@ -3758,60 +3849,48 @@ Pastikan untuk teks 'Tamu Undangan' css classesnya sudah terisi: 'namatamu'
      * Mengambil nama tamu dari URL (mendukung baik search ?to=... maupun hash #to=...).
      */
     function getRecipientName(keys) {
-      function cleanVal(v) {
-        if (!v) return '';
-        var t = v.trim();
-        var txt = document.createElement('textarea');
-        txt.innerHTML = t;
-        return txt.value
-          .replace(/&amp;/gi, '&')
-          .replace(/&#38;/gi, '&')
-          .replace(/&#x26;/gi, '&')
-          .replace(/&quot;/gi, '"')
-          .replace(/&#39;/gi, "'")
-          .replace(/&apos;/gi, "'");
+      var full = window.location.href || '';
+      var parts = [];
+      var hashIdx = full.indexOf('#');
+      var qIdx = full.indexOf('?');
+      if (hashIdx !== -1) {
+        parts.push(full.substring(hashIdx + 1));
       }
-
-      var sources = [window.location.hash, window.location.search];
-      for (var i = 0; i < sources.length; i++) {
-        var src = sources[i];
-        if (!src) continue;
-        var clean = src.replace(/^[#?\/]+/, '');
-
-        // 1. URLSearchParams parse
-        try {
-          var p = new URLSearchParams(clean);
-          for (var k = 0; k < keys.length; k++) {
-            var val = p.get(keys[k]);
-            if (val && val.trim()) {
-              return cleanVal(val);
-            }
-          }
-        } catch(e) {}
-
-        // 2. Regex fallback for unencoded characters or direct format: e.g. to=Kamu & Dia
+      if (qIdx !== -1) {
+        var end = (hashIdx !== -1 && hashIdx > qIdx) ? hashIdx : full.length;
+        parts.push(full.substring(qIdx + 1, end));
+      }
+      for (var i = 0; i < parts.length; i++) {
+        var part = parts[i].replace(/^[#\/?!]+/, '');
         for (var k = 0; k < keys.length; k++) {
           var key = keys[k];
-          var match = clean.match(new RegExp('(?:^|[&;])' + key + '=(.*)$', 'i'));
-          if (match && match[1]) {
-            var rawStr = match[1].split('&')[0]; // in case of multiple params
-            if (!rawStr) rawStr = match[1];
+          var re = new RegExp('(?:^|[?&;])' + key + '=([\s\S]*?)(?=(?:[&;](?:to|dear|kepada|u|n|nama|utm_[a-z]+)=)|$)', 'i');
+          var m = part.match(re);
+          if (m && m[1]) {
+            var rawVal = m[1].trim();
             try {
-              return cleanVal(decodeURIComponent(rawStr.replace(/\+/g, ' ')));
+              rawVal = decodeURIComponent(rawVal.replace(/\+/g, ' '));
             } catch(e) {
-              return cleanVal(unescape(rawStr.replace(/\+/g, ' ')));
+              try { rawVal = unescape(rawVal.replace(/\+/g, ' ')); } catch(e2) {}
             }
+            var txt = document.createElement('textarea');
+            txt.innerHTML = rawVal;
+            rawVal = txt.value
+              .replace(/&amp;/gi, '&')
+              .replace(/&#38;/gi, '&')
+              .replace(/&#x26;/gi, '&')
+              .replace(/&quot;/gi, '"')
+              .replace(/&#39;/gi, "'")
+              .replace(/&apos;/gi, "'");
+            if (rawVal.trim()) return rawVal.trim();
           }
         }
       }
       return '';
     }
   
-    /**
-     * Membersihkan string agar aman digunakan di dalam Regular Expression.
-     */
     function escapeRegExp(string) {
-      return string.replace(/[.*+?^${}()|[\]\]/g, '\$&');
+      return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     }
   
     /**
